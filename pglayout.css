@@ -9,3 +9,17 @@ nav {
     align-items: var(--align-left);
 }
 /* Nav */
+
+/* Sections */
+#home { 
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-off-wht);
+}
+
+#about {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color-lgt-grn);
+}
+/* Sections */
