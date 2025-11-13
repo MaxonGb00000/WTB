@@ -1,0 +1,11 @@
+/* Nav */
+nav {
+    width: 100%;
+    background-color: var(--color-lgt-grn);
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    display: flex;
+    gap: var(--size-2);
+    align-items: var(--align-left);
+}
+/* Nav */
