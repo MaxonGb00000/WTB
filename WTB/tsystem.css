@@ -1,0 +1,103 @@
+:root {font-size: 18px;
+scroll-behavior: smooth;
+--color-org: oklab(67.2%, 15.75%, 31.25%);
+--color-drk-grn: oklab(27.2%, -13%, 7.25%);
+--color-lgt-grn: oklab(50.4%, -7.5%, 6.5%);
+--color-ylw: oklab(88.3%, -3.5%, 45.25%);
+--color-off-wht: oklab(97.8%, -1.75%, 11.25%);
+--color-lgt-ble: oklab(91.1%, 1%, -10.75%);
+--color-brwn: oklab(31.3%, 3.75%, 1.25%);
+
+--color-org: #D18025;
+--color-drk-grn: #0C2F17;
+--color-lgt-grn: #596A54;
+--color-ylw: #FFD500;
+--color-off-wht: #FFF9D6;
+--color-lgt-ble: #d9e0ff;
+--color-brwn: #392E2E;
+
+
+--font-weight-og: 400;
+--font-weight-bold: 700;
+--font-weight-black: 900;
+
+font-family: 'Averia Serif Libre', serif;
+--font-family-alt: 'Arial', sans-serif;
+
+
+
+
+--size-1: 0.75rem;
+--size-2: 1rem;
+--size-3: 1.5rem;
+--size-4: 2rem;
+--size-5: 3rem;
+--size-6: 4rem;
+
+
+
+--spacing-heading: 2rem;
+--spacing-paragraph: 1rem;
+
+
+
+--line-height: 1.6;
+--line-height-2: 2.0;
+--line-height-3: 1;
+
+--scaling: 0rem;
+--scaling-1: 0.025rem;
+--scaling-2: 0.05rem;
+--scaling-3: 0.1rem;
+
+
+
+--align-left: left;
+--align-center: center;
+--align-right: right;
+
+
+   
+}
+
+
+h1  {
+font-family: var(--font-family);
+color: var(--color-drk-grn);
+margin-bottom: var(--spacing-heading);
+line-height: var(--line-height);
+font-size: var(--size-6);
+font-weight: var(--font-weight-black);
+text-align: var(--align-center);
+}
+
+
+h2  {
+font-family: var(--font-family);
+color: var(--color-org);
+margin-bottom: var(--spacing-heading);
+line-height: var(--line-height);
+font-size: var(--size-4);
+font-weight: var(--font-weight-og);
+text-align: var(--align-center);
+}
+
+
+h3  {
+font-family: var(--font-family-alt);
+color: var(--color-brwn);
+margin-bottom: var(--spacing-heading);
+line-height: var(--line-height);
+font-weight: var(--font-weight-bold);
+text-align: var(--align-center);
+}
+
+
+p  {
+font-family: var(--font-family-alt);
+color: var(--color-drk-grn);
+margin-bottom: var(--spacing-heading);
+line-height: var(--line-height);
+font-weight: var(--font-weight-og);
+text-align: var(--align-center);
+}
